@@ -1,0 +1,21 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #1f2937; background: #f3f4f6; }
+body { margin: 0; }
+.app-shell { display: grid; grid-template-columns: 260px 1fr; min-height: 100vh; }
+.sidebar { background: #111827; color: white; padding: 24px 16px; }
+.sidebar h1 { font-size: 1rem; margin-bottom: 20px; }
+.nav-link { display: flex; gap: 8px; color: #d1d5db; text-decoration: none; padding: 10px; border-radius: 8px; margin-bottom: 6px; }
+.nav-link.active { background: #1f2937; color: #fff; }
+.content { padding: 32px; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 16px; margin-top: 16px; }
+.card { background: #fff; border-radius: 10px; padding: 16px; border: 1px solid #e5e7eb; }
+.muted { color: #6b7280; }
+.table { width: 100%; border-collapse: collapse; margin-top: 16px; background: #fff; }
+.table th, .table td { text-align: left; padding: 12px; border-bottom: 1px solid #e5e7eb; }
+.badge { padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; text-transform: capitalize; }
+.badge.processing, .badge.validating { background: #dbeafe; color: #1d4ed8; }
+.badge.uploaded, .badge.approved { background: #dcfce7; color: #166534; }
+.badge.needs_review { background: #fef3c7; color: #92400e; }
+.dropzone { border: 2px dashed #9ca3af; border-radius: 12px; padding: 40px; text-align: center; background: #fff; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(280px,1fr)); gap: 12px; }
+.form-grid label { display: grid; gap: 6px; font-size: 14px; }
+.form-grid input { padding: 8px; border: 1px solid #d1d5db; border-radius: 8px; }
